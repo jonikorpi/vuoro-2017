@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir build",
-    "now-start": "NODE_ENV=production serve ./build"
+    "build": "parcel build index.html",
+    "deploy": "now ./dist"
   }
 }
